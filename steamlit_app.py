@@ -23,7 +23,7 @@ else:
 
 
 def app():
-    st.title("Iris Classifier")
+    st.title("Classification Model on Iris Data")
     sepal_length = st.slider("Sepal length", 0.0, 10.0, 5.0)
     sepal_width = st.slider("Sepal width", 0.0, 10.0, 5.0)
     petal_length = st.slider("Petal length", 0.0, 10.0, 5.0)
